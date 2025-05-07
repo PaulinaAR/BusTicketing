@@ -311,23 +311,23 @@ class _AddMethodWidgetState extends State<AddMethodWidget> {
                       textInputAction: TextInputAction.next,
                       obscureText: false,
                       decoration: InputDecoration(
-                        hintText: '00/00',
+                        hintText: 'MM/AA',
                         hintStyle:
-                            FlutterFlowTheme.of(context).labelMedium.override(
+                            FlutterFlowTheme.of(context).labelLarge.override(
                                   font: GoogleFonts.inter(
                                     fontWeight: FlutterFlowTheme.of(context)
-                                        .labelMedium
+                                        .labelLarge
                                         .fontWeight,
                                     fontStyle: FlutterFlowTheme.of(context)
-                                        .labelMedium
+                                        .labelLarge
                                         .fontStyle,
                                   ),
                                   letterSpacing: 0.0,
                                   fontWeight: FlutterFlowTheme.of(context)
-                                      .labelMedium
+                                      .labelLarge
                                       .fontWeight,
                                   fontStyle: FlutterFlowTheme.of(context)
-                                      .labelMedium
+                                      .labelLarge
                                       .fontStyle,
                                 ),
                         enabledBorder: OutlineInputBorder(
@@ -427,22 +427,23 @@ class _AddMethodWidgetState extends State<AddMethodWidget> {
                       textInputAction: TextInputAction.done,
                       obscureText: false,
                       decoration: InputDecoration(
+                        hintText: 'CVC',
                         hintStyle:
-                            FlutterFlowTheme.of(context).bodyLarge.override(
+                            FlutterFlowTheme.of(context).labelLarge.override(
                                   font: GoogleFonts.inter(
                                     fontWeight: FlutterFlowTheme.of(context)
-                                        .bodyLarge
+                                        .labelLarge
                                         .fontWeight,
                                     fontStyle: FlutterFlowTheme.of(context)
-                                        .bodyLarge
+                                        .labelLarge
                                         .fontStyle,
                                   ),
                                   letterSpacing: 0.0,
                                   fontWeight: FlutterFlowTheme.of(context)
-                                      .bodyLarge
+                                      .labelLarge
                                       .fontWeight,
                                   fontStyle: FlutterFlowTheme.of(context)
-                                      .bodyLarge
+                                      .labelLarge
                                       .fontStyle,
                                 ),
                         enabledBorder: OutlineInputBorder(
